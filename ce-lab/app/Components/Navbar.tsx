@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,12 +30,14 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
-              <svg className="h-8 w-8 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4L4 8L12 12L20 8L12 4Z" fill="currentColor" />
-                <path d="M4 12L12 16L20 12" stroke="currentColor" strokeWidth="2" />
-                <path d="M4 16L12 20L20 16" stroke="currentColor" strokeWidth="2" opacity="0.5" />
-              </svg>
-              <span className="ml-2 text-xl font-bold text-gray-900">Cloud Engineering Lab</span>
+              {/* <CloudSvg/> */}
+              <Image
+              src="/cloud-logo.svg"
+              width={100}
+              height={100}
+              alt=''
+              />
+              <span className="text-xl font-bold text-gray-900">Cloud Engineering Lab</span>
             </Link>
           </div>
           

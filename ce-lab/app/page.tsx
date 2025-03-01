@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-
+import Heading from './Components/Heading';
 
 export default function Home() {
   return (
@@ -17,45 +17,27 @@ export default function Home() {
       <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Cloud Solutions for <span className="text-blue-600">Tomorrow&apos;s</span> Challenges
-            </h1>
-            <p className="text-lg text-gray-600 max-w-lg">
-              Streamline your business with our cutting-edge cloud infrastructure. Scale effortlessly, deploy faster, and stay ahead of the competition.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-4">
-              <Link href="/solutions" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-md font-medium transition-colors">
-                Explore Solutions
-              </Link>
-              <Link href="/contact" className="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md text-md font-medium transition-colors">
-                Book a Demo
-              </Link>
-            </div>
-            <div className="flex items-center space-x-4 pt-6">
-              <p className="text-sm text-gray-500">Trusted by leading companies:</p>
-              <div className="flex space-x-4">
-                {/* Company logos would go here - using placeholder colored shapes */}
-                <div className="h-8 w-8 bg-gray-300 rounded-full"></div>
-                <div className="h-8 w-8 bg-gray-400 rounded-full"></div>
-                <div className="h-8 w-8 bg-gray-500 rounded-full"></div>
-              </div>
-            </div>
+          <Heading/>
           </div>
           <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
             {/* Replace with your actual hero image */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500">
-              <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_30%_30%,white_1px,transparent_1px),radial-gradient(circle_at_70%_70%,white_1px,transparent_1px)] bg-[length:20px_20px]"></div>
-            </div>
+            
             <div className="absolute bottom-4 left-4 right-4 bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg">
-              <div className="flex items-center space-x-3">
+            
+              <div className="flex items-center space-x-3 overflow-hidden">
+                
                 <div className="h-6 w-6 bg-green-500 rounded-full flex items-center justify-center">
                   <svg className="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <span className="text-sm font-medium">99.9% Uptime Guaranteed</span>
+                
               </div>
+              
             </div>
+            
+            
+            
           </div>
         </div>
       </section>
