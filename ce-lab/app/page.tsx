@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 
 
@@ -19,7 +18,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Cloud Solutions for <span className="text-blue-600">Tomorrow's</span> Challenges
+              Cloud Solutions for <span className="text-blue-600">Tomorrow&apos;s</span> Challenges
             </h1>
             <p className="text-lg text-gray-600 max-w-lg">
               Streamline your business with our cutting-edge cloud infrastructure. Scale effortlessly, deploy faster, and stay ahead of the competition.
