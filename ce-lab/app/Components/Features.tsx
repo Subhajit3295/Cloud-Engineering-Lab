@@ -48,7 +48,7 @@ const Features = () => {
                 className="bg-gray-50 p-3 rounded-xl border border-gray-100 hover:shadow-lg transition-shadow w-fit mx-auto"
                 key={feature.title}
               >
-                <div className="w-100 lg:w-100 h-50 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-[100%] lg:w-100 h-50 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                   <Image src={feature.image} alt={feature.title} className="w-[100%] h-[100%]" height={200} width={400}/>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
