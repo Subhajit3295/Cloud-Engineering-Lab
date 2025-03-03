@@ -1,0 +1,24 @@
+{
+    "testimonials": [
+        {
+            "id": 1,
+            "comment": "We really don’t have the internal expertise or capabilities to focus on security as effectively as we would like, however, with the cloud-based solution, we now have much better protection in place"
+        },
+        {
+            "id": 2,
+            "comment": "Cloud solutions continue to gain popularity as businesses look to conserve resources by offloading data center management, while gaining the IT flexibility to meet their evolving business needs. CDW’s hosted virtual desktop offering, powered by CEL, puts the direct benefits of cloud computing in our customers’ hands"
+        },
+        {
+            "id": 3,
+            "comment": "When we started our search for a cloud services provider to partner with, we wanted a strong industry partner with a strong channel program in place. We took our time selecting the right partner to work with because there were so many to choose from and in the past, any company we met with left us wanting more stability in a partner. We finally found a strong partner with CEL. They give us the confidence and tools we need to bring a true corporate level cloud offering to our clients."
+        },
+        {
+            "id": 4,
+            "comment": "The industry requirements that healthcare organizations deal with are difficult enough, let alone having to manage the complexities of the noisy cloud market space. Having an affordable, scalable solution like CEL, that is easy to provision and provides accessibility from anywhere, is a huge advantage."
+        },
+        {
+            "id": 5,
+            "comment": "The number one barrier to client virtualization adoption is a lack of internal resources and skills. Also high on the list is immaturity of the technologies. However, as we see with other cloud and SaaS technologies, these concerns can go away when a provider has the expertise and infrastructure already, and the service is easy to consume and affordable. DaaS providers like … CEL have considerable experience and maturing infrastructures."
+        }
+    ]
+}

@@ -23,7 +23,7 @@ const Heading = () => {
           href="/contact"
           className="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md text-md font-medium transition-colors"
         >
-          Book a Demo
+          Free Demo
         </Link>
       </div>
     </>

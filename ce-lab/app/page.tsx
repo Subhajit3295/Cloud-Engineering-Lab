@@ -3,38 +3,27 @@ import React from "react";
 import Link from "next/link";
 import Heading from "./Components/Heading";
 import Features from "./Components/Features";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen w-[100%] bg-gray-50">
       {/* Hero Section */}
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4 h-[100svh] flex">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <Heading />
           </div>
           <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
             {/* Replace with your actual hero image */}
 
-            <div className="absolute bottom-4 left-4 right-4 bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-lg">
-              <div className="flex items-center space-x-3 overflow-hidden">
-                <div className="h-6 w-6 bg-green-500 rounded-full flex items-center justify-center">
-                  <svg
-                    className="h-4 w-4 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
+            <Image 
+              src="/homepage-cloud.jpg"
+              alt=""
+              width={2000}
+              height={1000}
+              className="w-[100%] h-64 md:h-96"
+            />
           </div>
         </div>
       </section>

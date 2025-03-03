@@ -19,9 +19,7 @@ const Features = () => {
     axios
       .get("/data.json")
       .then((response) => {
-        console.log("Fetched Data:", response.data);
         setData(response.data.featuredlabs);
-        console.log(response.data.featuredlabs)
         setLoading(false);
       })
       .catch((error) => {

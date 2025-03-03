@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 import Navbar from "./Components/Navbar";
@@ -16,14 +16,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/Cloud.png" sizes="32x32"/>
+      <head>
+        <link rel="icon" href="/Cloud.png" sizes="32x32" />
+        <link
+          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet"
+        ></link>
+      </head>
+
       <body>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        <Analytics/>
+        <Footer />
+        <Analytics />
       </body>
-      
     </html>
   );
 }

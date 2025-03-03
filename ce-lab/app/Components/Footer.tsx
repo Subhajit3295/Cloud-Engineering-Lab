@@ -42,6 +42,10 @@ const Footer = () => {
             
             <div>
               <h3 className="font-semibold text-lg mb-4">Connect</h3>
+              <p className="text-gray-400">
+                info@cloudenglab.com<br />
+                +1 (555) 123-4567
+              </p>
               <div className="flex space-x-4 mb-4">
                 <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

@@ -1,5 +1,6 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
 
+
+import { Home, Products } from "@/app/Components/Icons"
 import {
   Sidebar,
   SidebarContent,
@@ -10,34 +11,30 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
+import { Cloud, Globe } from "lucide-react"
 
 // Menu items.
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
+    title: "Products",
+    url: "/products",
+    icon: Products,
   },
   {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
+    title: "About",
+    url: "about",
+    icon: Globe,
   },
   {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
-  },
+    title: "Services",
+    url: "services",
+    icon: Cloud,
+  }
 ]
 
 export function AppSidebar() {
@@ -52,7 +49,7 @@ export function AppSidebar() {
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
                     <a href={item.url}>
-                      <item.icon />
+                      {item.icon && <item.icon />}
                       <span>{item.title}</span>
                     </a>
                   </SidebarMenuButton>
