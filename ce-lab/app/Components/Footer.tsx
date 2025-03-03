@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -8,11 +9,12 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center mb-4">
-                <svg className="h-8 w-8 text-blue-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4L4 8L12 12L20 8L12 4Z" fill="currentColor" />
-                  <path d="M4 12L12 16L20 12" stroke="currentColor" strokeWidth="2" />
-                  <path d="M4 16L12 20L20 16" stroke="currentColor" strokeWidth="2" opacity="0.5" />
-                </svg>
+              <Image
+              src="/Cloud.png" 
+              height={40}
+              width={40}
+              alt=''
+              />
                 <span className="ml-2 text-xl font-bold">Cloud Engineering Lab</span>
               </div>
               <p className="text-gray-400 text-sm">
@@ -21,12 +23,10 @@ const Footer = () => {
             </div>
             
             <div>
-              <h3 className="font-semibold text-lg mb-4">Solutions</h3>
+              <h3 className="font-semibold text-lg mb-4">Services</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><Link href="/solutions/cloud-storage" className="hover:text-blue-400 transition-colors">Cloud Storage</Link></li>
-                <li><Link href="/solutions/security" className="hover:text-blue-400 transition-colors">Security</Link></li>
-                <li><Link href="/solutions/deployment" className="hover:text-blue-400 transition-colors">Deployment</Link></li>
-                <li><Link href="/solutions/analytics" className="hover:text-blue-400 transition-colors">Analytics</Link></li>
+                <li><Link href="/solutions/cloud-storage" className="hover:text-blue-400 transition-colors">Corporate training</Link></li>
+                <li><Link href="/solutions/security" className="hover:text-blue-400 transition-colors">IT Technical Training</Link></li>
               </ul>
             </div>
             
@@ -64,15 +64,15 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-              <p className="text-gray-400 text-sm">
+              {/* <p className="text-gray-400 text-sm">
                 Subscribe to our newsletter for updates
-              </p>
-              <form className="mt-2 flex">
+              </p> */}
+              {/* <form className="mt-2 flex">
                 <input type="email" placeholder="Your email" className="bg-gray-800 text-white px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full" />
                 <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-r-md transition-colors">
                   Subscribe
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
           

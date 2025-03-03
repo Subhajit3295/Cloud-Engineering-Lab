@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/favicon.ico" sizes="32x32"/>
+      <link rel="icon" href="/Cloud.png" sizes="32x32"/>
       <body>
         <Navbar/>
         {children}
