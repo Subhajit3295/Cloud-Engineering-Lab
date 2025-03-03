@@ -82,7 +82,7 @@ const Footer = () => {
 
           <div>
             <h3 className="font-semibold text-lg mb-4">Connect</h3>
-            <p className="text-gray-400">
+            <p className="text-gray-400 my-2">
               <a href="mailto: info@cloudengineeringlab.com">
                 info@cloudengineeringlab.com
               </a>
