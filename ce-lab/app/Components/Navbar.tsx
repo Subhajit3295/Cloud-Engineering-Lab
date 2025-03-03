@@ -29,15 +29,16 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center border-black border-2">
               {/* <CloudSvg/> */}
               <Image
-              src="/cloud-logo.svg"
-              width={100}
-              height={100}
+              src="/Logo.png"
+              width={10}
+              height={20}
               alt=''
+              className=''
               />
-              <span className="text-xl font-bold text-gray-900">Cloud Engineering Lab</span>
+              
             </Link>
           </div>
           
