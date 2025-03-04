@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
-import "./animation.css"
+import "./animation.css";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 export const metadata: Metadata = {
@@ -23,6 +23,10 @@ export default function RootLayout({
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
           rel="stylesheet"
         ></link>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=open_in_new"
+        />
       </head>
 
       <body>
