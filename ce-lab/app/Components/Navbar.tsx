@@ -89,16 +89,15 @@ const Navbar = () => {
 
           {/* Mobile menu button */}
           <SidebarProvider className="md:hidden">
-        <AppSidebar />
-        <main>
-          <SidebarTrigger className="absolute top-2 right-2" />
-        </main>
-      </SidebarProvider>
+            <AppSidebar />
+            <main>
+              <SidebarTrigger className="absolute top-2 right-2" />
+            </main>
+          </SidebarProvider>
         </div>
       </div>
 
       {/* Mobile menu, show/hide based on menu state */}
-      
     </nav>
   );
 };

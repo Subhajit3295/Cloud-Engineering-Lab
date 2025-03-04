@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import Heading from "./Components/Heading";
-import Features from "./Components/Features";
+import Heading from "../Components/Heading";
+import Features from "../Components/Features";
 import Image from "next/image";
 
 export default function Home() {

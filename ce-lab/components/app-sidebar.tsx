@@ -42,15 +42,15 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Cloud Engineering Lab</SidebarGroupLabel>
+          <SidebarGroupLabel className="text-blue-500 text-lg font-bold">Cloud Engineering Lab</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
-                    <a href={item.url}>
+                    <a href={item.url} className="hover:text-blue-500 text-md">
                       {item.icon && <item.icon />}
-                      <span>{item.title}</span>
+                      <span className="">{item.title}</span>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>

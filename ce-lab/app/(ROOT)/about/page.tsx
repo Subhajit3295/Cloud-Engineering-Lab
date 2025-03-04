@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Testimonials from "../Components/Testimonials";
+import Testimonials from "../../Components/Testimonials";
 
 const AboutPage: React.FC = () => {
   return (
