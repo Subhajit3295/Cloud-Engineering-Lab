@@ -11,10 +11,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4 h-[100svh] flex">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+          <div className="space-y-6 slide-right">
             <Heading />
           </div>
-          <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
+          <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl slide-left">
             {/* Replace with your actual hero image */}
 
             <Image 
