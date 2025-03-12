@@ -2,12 +2,13 @@
 import axios from "axios";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import { MdOpenInNew } from "react-icons/md";
 
 interface Blog {
   title: string;
   id: number;
-  image: string, 
-  slug: string
+  image: string;
+  slug: string;
 }
 
 const BlogsCardContainer = () => {
@@ -57,7 +58,7 @@ const BlogsCardContainer = () => {
                 target="_blank"
                 className="rounded-md h-fit w-fit hover:cursor-pointer hover:text-blue-800 focus:text-blue-800"
               >
-                <span className="material-symbols-outlined">open_in_new</span>
+                <MdOpenInNew className="text-2xl" />
               </a>
             </div>
           </div>

@@ -15,8 +15,12 @@ const page = () => {
           Your satisfaction is our mission
         </p>
       </div>
-      <div className="card-container w-[100%] h-[100%] grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10">
+      <div className="card-container w-[100%] h-[100%] grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 mb-15">
         <ServicesCard />
+      </div>
+      <div className="start_journey text-white h-25 md:h-40 xl:h-60 xl:rounded-xl w-[100%] bg-gradient-to-tl from-blue-900 to-blue-600 rounded-md flex flex-col items-center justify-evenly">
+        <p className="font-bold text-md md:text-2xl lg:text-4xl">Start your journey with us</p>
+        <button className="border-1 border-white px-2 py-1 md:px-4 md:py-3 rounded-sm md:rounded-lg hover:cursor-pointer hover:bg-white hover:text-blue-700 transition-transform duration-600">Contact us</button>
       </div>
     </section>
   );

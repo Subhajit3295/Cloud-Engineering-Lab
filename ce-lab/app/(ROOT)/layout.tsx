@@ -7,6 +7,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { ReactLenis } from "@/app/(ROOT)/lenis";
 import { Roboto } from 'next/font/google';
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Cloud Engineering Lab",
@@ -22,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="icon" href="/Cloud.png" sizes="32x32" />
         <link
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -32,7 +33,7 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://unpkg.com/lenis@1.2.3/dist/lenis.css"
         ></link>
-      </head>
+      </Head>
 
       <ReactLenis root>
         <body className={roboto.className}>
