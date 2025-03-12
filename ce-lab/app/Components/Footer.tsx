@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>
                 <Link
-                  href="/solutions/cloud-storage"
+                  href="/services"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Corporate training
@@ -33,10 +33,18 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/solutions/security"
+                  href="/services"
                   className="hover:text-blue-400 transition-colors"
                 >
                   IT Technical Training
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  Internship
                 </Link>
               </li>
             </ul>
@@ -47,18 +55,10 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>
                 <Link
-                  href="/about"
+                  href="/"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/careers"
-                  className="hover:text-blue-400 transition-colors"
-                >
-                  Careers
+                  Home
                 </Link>
               </li>
               <li>
@@ -66,15 +66,23 @@ const Footer = () => {
                   href="/blog"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  Blog
+                  Blogs
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/services"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  Contact
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  About
                 </Link>
               </li>
             </ul>
