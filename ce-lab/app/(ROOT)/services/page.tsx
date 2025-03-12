@@ -1,4 +1,3 @@
-
 import ServicesCard from "@/app/Components/ServicesCard";
 import React from "react";
 
@@ -11,17 +10,14 @@ const page = () => {
         </p>
       </div>
       <div className="flex flex-col gap-2 my-10 w-[90%] mx-auto items-center">
-        <p className="font-bold text-blue-700">
-          Our Services
-        </p>
+        <p className="font-bold text-blue-700">Our Services</p>
         <p className="mt-0 text-xl md:text-3xl font-bold">
-          Our mission is to...
+          Your satisfaction is our mission
         </p>
       </div>
       <div className="card-container w-[100%] h-[100%] grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10">
-        <ServicesCard/>
+        <ServicesCard />
       </div>
-
     </section>
   );
 };
