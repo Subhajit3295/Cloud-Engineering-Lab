@@ -4,8 +4,8 @@ export const Home = () => {
   return <i className="bx bx-home-alt"></i>;
 };
 
-export const Products = () => {
-  return <i className="bx bx-shopping-bag"></i>;
+export const Blogs = () => {
+  return <i className='bx bx-book-content'></i>;
 };
 
 export const Services = () => {

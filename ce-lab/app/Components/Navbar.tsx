@@ -53,11 +53,17 @@ const Navbar = () => {
               >
                 Home
               </Link>
-              <Link
+              {/* <Link
                 href="/products"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
               >
                 Products
+              </Link> */}
+              <Link
+                href="/blog"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+              >
+                Blogs
               </Link>
               <Link
                 href="/services"

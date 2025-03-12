@@ -1,6 +1,6 @@
 
 
-import { Home, Products } from "@/app/Components/Icons"
+import { Home, Blogs } from "@/app/Components/Icons"
 import {
   Sidebar,
   SidebarContent,
@@ -21,9 +21,9 @@ const items = [
     icon: Home,
   },
   {
-    title: "Products",
-    url: "/products",
-    icon: Products,
+    title: "Blogs",
+    url: "/blog",
+    icon: Blogs,
   },
   {
     title: "About",
