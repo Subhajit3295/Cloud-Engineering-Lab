@@ -14,17 +14,17 @@ const Heading = () => {
       </p>
       <div className="flex flex-wrap gap-4 pt-4">
         <Link
-          href="/journey"
+          href="/services"
           className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-md font-medium transition-colors"
         >
           Explore Journey
         </Link>
-        <Link
-          href="/contact"
+        <a
+          href="mailto: info@cloudengineeringlab.com"
           className="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md text-md font-medium transition-colors"
         >
           Free Demo
-        </Link>
+        </a>
       </div>
     </>
   );

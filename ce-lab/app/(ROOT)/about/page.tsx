@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Testimonials from "../../Components/Testimonials";
 
 const AboutPage: React.FC = () => {
@@ -131,8 +130,14 @@ const AboutPage: React.FC = () => {
           </div>
 
           <div className="bg-blue-700 p-8 rounded-lg">
-            <div className="bg-blue-900 h-64 rounded-lg flex items-center justify-center">
-              <span>Process Diagram</span>
+            <div className="bg-blue-900 h-64 rounded-lg overflow-hidden flex items-center justify-center">
+              <Image
+                src="/process_diagram.png"
+                height={800}
+                width={1600}
+                alt="Process Diagram"
+                className="text-white w-[100%] h-[100%]"
+              />
             </div>
           </div>
         </div>
@@ -160,16 +165,16 @@ const AboutPage: React.FC = () => {
             today.
           </p>
           <div className="flex justify-center space-x-4">
-            <Link href="/contact">
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors">
+            <a href="mailto: info@cloudengineeringlab.com">
+              <button className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors hover:cursor-pointer">
                 Contact Us
               </button>
-            </Link>
-            <Link href="/get-started">
+            </a>
+            {/* <Link href="/get-started">
               <button className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">
                 Schedule a Demo
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

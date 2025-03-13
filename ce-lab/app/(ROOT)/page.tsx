@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import Heading from "../Components/Heading";
 import Features from "../Components/Features";
 import Image from "next/image";
@@ -34,7 +33,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 md:p-12 text-white shadow-xl">
-          <div className="md:flex items-center justify-between">
+          <div className="md:flex items-center justify-center">
             <div className="md:w-2/3 mb-6 md:mb-0">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
                 Ready to transform your cloud infrastructure?
@@ -46,12 +45,12 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <Link
+              {/* <Link
                 href="/contact"
                 className="inline-block bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md text-md font-medium transition-colors"
               >
                 Schedule a Consultation
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

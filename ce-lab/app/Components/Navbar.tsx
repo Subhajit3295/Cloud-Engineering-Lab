@@ -4,8 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
+import { usePathname } from "next/navigation";
+import clsx from "clsx"; // Optional for cleaner class management
 
 const Navbar = () => {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
 
   // Handle scroll effect
@@ -49,7 +52,12 @@ const Navbar = () => {
             <div className="ml-10 flex items-center space-x-4">
               <Link
                 href="/"
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                className={clsx(
+                  "px-3 py-2 rounded-md text-sm font-medium",
+                  pathname === "/"
+                    ? "text-blue-600 font-bold"
+                    : "text-gray-900 hover:text-blue-600"
+                )}
               >
                 Home
               </Link>
@@ -61,19 +69,34 @@ const Navbar = () => {
               </Link> */}
               <Link
                 href="/blog"
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                className={clsx(
+                  "px-3 py-2 rounded-md text-sm font-medium",
+                  pathname === "/blog"
+                    ? "text-blue-600 font-bold"
+                    : "text-gray-900 hover:text-blue-600"
+                )}
               >
                 Blogs
               </Link>
               <Link
                 href="/services"
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                className={clsx(
+                  "px-3 py-2 rounded-md text-sm font-medium",
+                  pathname === "/services"
+                    ? "text-blue-600 font-bold"
+                    : "text-gray-900 hover:text-blue-600"
+                )}
               >
                 Services
               </Link>
               <Link
                 href="/about"
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                className={clsx(
+                  "px-3 py-2 rounded-md text-sm font-medium",
+                  pathname === "/about"
+                    ? "text-blue-600 font-bold"
+                    : "text-gray-900 hover:text-blue-600"
+                )}
               >
                 About
               </Link>
@@ -86,7 +109,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="/contact"
+              href="/services"
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
             >
               Get Started
