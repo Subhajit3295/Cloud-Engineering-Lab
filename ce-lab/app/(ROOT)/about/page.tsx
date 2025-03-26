@@ -26,8 +26,8 @@ const AboutPage: React.FC = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <p className="text-gray-700 mb-4">
-              We, Cloud Engineering Lab(CES) in merger with Shyamala Systems-22
-              years young company working together by providing and
+              We, Cloud Engineering Lab(CES) in merger with Shyamala Systems since 1998,
+              working together by providing and
               demonstrating new ideas to a wide range of customers throughout
               the globe. We deliver software products based on customer needs .
               Our leaders have wide range of experience from leading MNCS. We
