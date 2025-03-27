@@ -5,7 +5,7 @@ import "./globals.css";
 import "./animation.css";
 import Navbar from "@/app/Components/Navbar";
 import Footer from "../Components/Footer";
-import { ReactLenis } from "@/app/(ROOT)/lenis";
+// import { ReactLenis } from "@/app/(ROOT)/lenis";
 import { Roboto } from 'next/font/google';
 
 export const metadata: Metadata = {
@@ -34,14 +34,14 @@ export default function RootLayout({
         ></link>
       </head>
 
-      <ReactLenis root>
+      {/* <ReactLenis root> */}
         <body className={roboto.className}>
           <Navbar />
           {children}
           <Footer />
           <Analytics />
         </body>
-      </ReactLenis>
+      {/* </ReactLenis> */}
     </html>
   );
 }

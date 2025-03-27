@@ -123,3 +123,8 @@
   }
 }
 
+.content {
+  scroll-behavior: smooth;
+  scrollbar-color: rgb(0, 16, 236) transparent;
+}
+

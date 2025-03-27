@@ -161,13 +161,13 @@ const Footer = () => {
           <p>© 2025 Cloud Engineering Lab. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link
-              href="/privacy"
+              href="/privacy-policy"
               className="hover:text-blue-400 transition-colors"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/terms"
+              href="/terms-of-service"
               className="hover:text-blue-400 transition-colors"
             >
               Terms of Service
