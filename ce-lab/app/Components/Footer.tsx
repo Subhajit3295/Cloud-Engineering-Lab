@@ -99,6 +99,7 @@ const Footer = () => {
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
+                id="twitter"
               >
                 <svg
                   className="h-6 w-6"
@@ -109,8 +110,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/cloudengineeringlab"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
+                id="facebook"
               >
                 <svg
                   className="h-6 w-6"
@@ -123,6 +125,7 @@ const Footer = () => {
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
+                id="instagram"
               >
                 <svg
                   className="h-6 w-6"
@@ -133,8 +136,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/cloud-engineering-lab/"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
+                id="linkedin"
               >
                 <svg
                   className="h-6 w-6"
