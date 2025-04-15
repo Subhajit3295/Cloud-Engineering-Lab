@@ -1,0 +1,22 @@
+{
+    "featuredlabs": [
+        {
+            "id": 1,
+            "title": "Corporate Training",
+            "description": "Corporate training boosts employee performance by aligning skills with business goals. Covering topics like technical skills, leadership, and compliance, these programs—delivered through workshops, seminars, or online courses—help staff adapt to industry trends, enhancing engagement and productivity.",
+            "image": "/corporate-training.png"
+        },
+        {
+            "id": 2,
+            "title":"IT Technical Training",
+            "description": "IT technical training equips professionals with in-depth knowledge and practical skills across various IT domains, including software, hardware, networking, and cybersecurity. These programs emphasize hands-on exercises and real-world applications to foster technological innovation and operational efficiency.",
+            "image": "/it-technical-training.png"
+        },
+        {
+            "id": 3,
+            "title": "Our Solutions",
+            "description": "Our solutions encompass specialized trainings, custom web development, dynamic seminars, and immersive internships. We deliver an end-to-end service experience that empowers businesses, drives innovation, and fosters growth at every stage of your journey.",
+            "image": "/our-solutions.png"
+        }
+    ]
+}
